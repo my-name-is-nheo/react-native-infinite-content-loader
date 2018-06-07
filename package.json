@@ -1,5 +1,5 @@
 {
-    "name": "react-native-content-loader",
+    "name": "react-native-infinite-content-loader",
     "version": "0.1.0",
     "description": "Animated linear gradient for React Native Svg",
     "repository": {
