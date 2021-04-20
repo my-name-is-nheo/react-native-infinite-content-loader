@@ -42,10 +42,12 @@ export default class ContentLoader extends Component {
         Animated.timing(this.animate, {
           toValue: 1,
           duration: this.props.duration,
+          useNativeDriver: true,
         }),
         Animated.timing(this.animate, {
           toValue: 0,
           duration: 0,
+          useNativeDriver: true,
         }),
       ]))
   }
